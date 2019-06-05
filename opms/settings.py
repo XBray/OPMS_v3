@@ -114,8 +114,13 @@ WSGI_APPLICATION = 'opms.wsgi.application'
 ######################################
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'opms',
+        'HOST': '47.92.133.179',
+        'PORT': 3306,
+        'USER': 'root',
+        'PASSWORD': 'xpchuang372153@',
+        'TIME_ZONE': 'Asia/Chongqing'
     }
 }
 
@@ -151,7 +156,7 @@ AUTHENTICATION_BACKENDS = (
 
 LANGUAGE_CODE = 'zh-hans'
 
-TIME_ZONE = 'Asia/Shanghai'
+TIME_ZONE = 'Asia/Chongqing'
 
 USE_I18N = True
 
