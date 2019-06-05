@@ -120,7 +120,6 @@ DATABASES = {
         'PORT': 3306,
         'USER': 'root',
         'PASSWORD': 'xpchuang372153@',
-        'TIME_ZONE': 'Asia/Chongqing'
     }
 }
 
